@@ -1,0 +1,200 @@
+/* 
+1. 링크 연결하기. href에 각자의 url 넣으면 됨.
+2. css 파일 합치기.
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+  } 
+
+ nav {
+    height: 80px;
+    background: #004080;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((105vw - 2000px) / 2);
+  }
+  
+  img{
+	  width : 800px; 
+	  height : 600px;
+  }
+ .warm {
+	 
+	 color: #ffffff;
+ }
+ 
+ .btn {
+	 background-color: #ffffff;
+	 
+ }
+  .logo {
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: italic;
+    
+  }
+  
+.title {
+	font-family: 'Hanken Grotesk', sans-serif;
+	
+}
+
+
+
+.article{
+	
+	font-family: 'Hanken Grotesk', sans-serif;
+}
+
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0 1.5rem;
+    font-size: 1.2rem;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  
+  .container {
+  max-width: 960px;
+  
+}
+.back{
+	background-image: url("asd.jpg");
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+}
+.box1 {
+	
+	gap: 20px;
+	display: flex;
+	
+}
+.contents {
+	flex-grow: 1;
+	
+}
+
+
+.bg{ 
+	position: relative;
+	 overflow: hidden;
+     background-image: url(book.jpg);
+	 background-repeat: no-repeat;
+	 background-size: cover;
+  }
+  
+.click {
+	 
+	font-family: 'Hanken Grotesk', sans-serif;
+	font-style: italic;
+	 
+ }
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+z
+.social {
+	
+	
+}
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+
+
+.flex-equal > * {
+  flex: 1;
+}
+@media screen and (min-width: 600px) {
+  .flex-md-equal > * {
+    flex: 1 !important;
+  }
+  
+  .content {
+	display: flex;
+	max-width: 80%;
+	line-height: 1.7;
+	font-family: 'Hanken Grotesk', sans-serif;
+	font-style: italic;
+	 
+}
+  .sidebar{
+	
+   position: absolute;
+  top: 60%;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+  }
+	
+ .text {
+	font-weight: 600;
+	padding: 5%;
+}
+
+.resources {
+	
+	padding-left: 80px;
+	font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.brain{
+	font-family: 'Hanken Grotesk', sans-serif;	
+}
+
+  .back{
+	background-image: url("background.jpg");
+	background-repeat:no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+}
+  .img1 {
+	width: 200px;
+	height: 200px;
+	}
+	.img2 {
+	width: 200px;
+	height: 200px;
+	}
+	.img3 {
+	width: 200px;
+	height: 200px;
+	}
+	.img4 {
+	width: 200px;
+	height: 200px;
+	}
+}
+
